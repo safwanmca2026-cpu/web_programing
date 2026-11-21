@@ -1,0 +1,28 @@
+<html>
+<body bgcolor="lightblue">
+<h1><center><i>STRING & MATH FUNCTIONS</i></center></h1>
+<script>
+var a ="Lord ";
+var b ="of the ";
+var c ="rings";
+var d =a+b+c;
+document.write("string 1: " + a + "<br><br>");
+document.write("string 2: " + b + "<br><br>")
+document.write("string 3: " + c + "<br><br>")
+document.write("string 4: " + a + b + c + "<br><br>")
+document.write("<h3><i>String functions</i></h3>");
+document.write("Uppercase:" + a.toUpperCase() +"<br><br>")
+document.write("Uppercase:" + c.toLowerCase() +"<br><br>");
+document.write("<h3><i>math functions</i></h3>");
+document.write("Round: " + Math.round(4.6) + "<br>");
+document.write("Floor: " + Math.floor(4.9) + "<br>");
+document.write("Ceil: " + Math.ceil(4.1) + "<br>");
+document.write("Square Root: " + Math.sqrt(25) + "<br>");
+document.write("Power: " + Math.pow(2,3) + "<br>");
+document.write("Absolute: " + Math.abs(-10) + "<br>");
+document.write("Maximum: " + Math.max(10,20,30) + "<br>");
+document.write("Minimum: " + Math.min(10,20,30) + "<br>");
+
+</script>
+</body>
+</html>
